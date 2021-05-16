@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CucumberWM
+Comment=Rusty window manager
+Exec=cucumberwm-start
+Type=XSession
+
