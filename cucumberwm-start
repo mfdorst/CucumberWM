@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Setup display and sound preferences
+setup-displays
+setup-sound
+
+mkdir -p $HOME/.local/share/cucumberwm
+
+while true; do
+  cucumberwm &>> $HOME/.local/share/umberwm/umberwm.log
+  # If cucumberwm returns exit code 123, restart, otherwise quit.
+  [ $? -ne 123 ] && break
+done
