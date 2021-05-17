@@ -14,7 +14,7 @@ fn main() {
             right: 0,
             top: 0,
             bottom: 0,
-            gap: 4,
+            gap: 10,
         },
         DisplayBorder {
             left: 0,
