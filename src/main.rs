@@ -31,7 +31,7 @@ fn main() {
         normal_color: 0x000000,
     };
 
-    let workspaces_names = vec![(1..9).map(|i| i.to_string()).collect()];
+    let workspaces_names = vec![(1..=9).map(|i| i.to_string()).collect()];
 
     let custom_actions = vec![
         (
